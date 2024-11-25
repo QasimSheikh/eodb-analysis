@@ -6,7 +6,7 @@
 - Generates multiple series for analysis
 - Output: Raw EODB time series data
 
-## 2. MACD Segmentation (macd_segmentation)
+## 2. MACD Segmentation (segment_macd)
 - Applies MACD indicator to identify trend changes
 - Segments EODB series at MACD crossover points
 - Calculates segment properties
