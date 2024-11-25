@@ -24,7 +24,7 @@
 - Calculates transition probabilities
 - Output: State transition matrix
 
-## 5. Bayesian Predictor (bayesian_predictor)
+## 5. Bayesian Predictor (predict)
 - Uses transition matrix for state predictions
 - Implements n-step ahead predictions
 - Calculates prediction probabilities
