@@ -1,6 +1,6 @@
 # EODB Analysis Pipeline Components
 
-## 1. Data Generation (data_generation)
+## 1. Data Generation (generate_eodb)
 - Creates synthetic EODB time series
 - Implements random walk with drift
 - Generates multiple series for analysis
