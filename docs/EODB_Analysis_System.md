@@ -45,26 +45,21 @@ state_mapper = StateMapper(binner)
 transition_matrix = TransitionMatrix(n_states=1000)
 
 # Process data
-##
-4. API Reference
-###
-4.1 GeometricBinner
+## 4. API Reference
+### 4.1 GeometricBinner
 bin_eodb(value): Bins EODB values
 bin_duration(days): Bins time periods
 bin_slope(slope): Bins trend slopes
 bin_curvature(curvature): Bins segment curvatures
-###
-4.2 StateMapper
+### 4.2 StateMapper
 get_state_id(features): Maps features to state ID
 map_segment_to_state(segment_data, duration, macd_line): Complete segment mapping
 decode_state(state_id): Converts state ID back to features
-###
-4.3 TransitionMatrix
+### 4.3 TransitionMatrix
 update(from_state, to_state): Updates transition probabilities
 save(filepath): Persists matrix to disk
 load(filepath): Loads matrix from disk
-###
-4.4 BayesianPredictor
+### 4.4 BayesianPredictor
 predict_next_state(current_state, n_steps): Generates future state predictions
 ##
 5. Implementation Details
